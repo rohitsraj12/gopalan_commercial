@@ -1,0 +1,79 @@
+.some-padding {
+    padding: 0 50px;
+}
+
+.our-properties .main-title {
+    font-weight: 500;
+}
+
+.our-properties .filter label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter-results {
+    padding-bottom: 8px;
+}
+
+.our-properties .filter-results img.img-cover {
+    height: 235px;
+}
+
+.our-properties .filter-results .custom-object-fit-ie {
+    height: 235px;
+}
+
+.item-results .col-lg-5, .item-results .col-md-5 {
+    background: #191919;
+}
+
+.c-result p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.content-pag {
+    text-align: center;
+}
+
+ul.pagination-eh {
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul.pagination-eh li.item-paging {
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    list-style: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul.pagination-eh li.item-paging.active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.limit-text-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+#filter {
+    margin: 0 auto;
+}
+
+#filter select {
+    font-weight: 700;
+}
+
+.our-properties .quote a.a-animation:before {
+    color: #191919;
+    background-color: #191919;
+}
