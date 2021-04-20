@@ -1,0 +1,672 @@
+#main-background-home img {
+    height: 100vh;
+}
+
+#page-header {
+    height: 100vh;
+}
+
+.directorOurProperties .text-d__ {
+    text-decoration: none;
+}
+
+
+/************Team css start***************/
+/* line 2, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part {
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/excuses_bg.jpg)); background-color:#F90;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; color:#FFF;
+}
+
+/* line 6, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part img {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  left: 0;
+}
+
+@media (max-width: 575px) {
+  /* line 6, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part img {
+    display: none;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 6, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 6, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part img {
+    position: relative;
+  }
+}
+
+/* line 25, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video {
+  background-image: url(images/excuses_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 425px;
+  height: 520px;
+  z-index: 1;
+  position: absolute;
+  right: -230px;
+  top: 140px;
+}
+
+@media (max-width: 575px) {
+  /* line 25, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 25, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 25, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 25, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video {
+    left: 150px;
+    top: 50px;
+    width: 100%;
+    height: 450px;
+  }
+}
+
+/* line 57, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* line 68, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video h2 {
+  font-size: 60px;
+  color: #fff;
+}
+
+@media (max-width: 575px) {
+  /* line 68, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 68, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 68, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_video h2 {
+    font-size: 40px;
+  }
+}
+
+/* line 83, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .intro_video_iner {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 88, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .intro_video_icon {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+/* line 92, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .video-play-button {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+  background-size: 200% auto;
+}
+
+/* line 107, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-size: 200% auto;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+/* line 123, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all 200ms;
+}
+
+/* line 138, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .video-play-button:hover:after {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* line 142, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .video-play-button img {
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* line 150, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .video-play-button span {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  top: 6px;
+  cursor: pointer;
+}
+
+/* line 157, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_video .ti-control-play:before {
+  content: "\e6ad";
+  font-size: 28px;
+  color: #fff;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* line 174, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text {
+  padding-left: 40px;
+}
+
+@media (max-width: 575px) {
+  /* line 174, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text {
+    padding-left: 0;
+  }
+  
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 174, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 174, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 174, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text {
+    padding-left: 0;
+  }
+}
+
+/* line 188, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text h2 {
+  font-size: 8rem;
+  font-weight: lighter;
+  line-height: 1;
+  margin-bottom: 15px;
+  position: relative; color:#FFF;
+}
+.extends_part .extends_member_text h1 { color:#FFF;
+  font-size: 12rem;
+  font-weight: lighter;
+  margin-bottom: 1px; margin-top:-50px;
+  position: relative; text-align:center;
+}
+.extends_part .extends_member_text h6 { color:#FFF;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 35px; margin-top: 35px;
+}
+.extends_part .extends_member_text h6 a:hover {color:#FFF;}
+.extends_part .extends_member_text h5 {
+  font-size: 2rem; color:#FFF;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  text-align:center;
+}
+.extends_part .extends_member_text span {
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  text-align:center; color:#FFF;
+}
+
+@media (max-width: 575px) {
+  /* line 188, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text h1 {
+    font-size: 5rem;
+    margin-bottom:10px;
+    margin-top: 5px;
+  }
+  .extends_part .extends_member_text span {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  text-align:center;
+}
+  .extends_part .extends_member_text h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+	text-align:center;
+  }
+  .extends_part .extends_member_text h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+  .extends_part .extends_member_text h6 a:hover {color:#FFF;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 188, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .extends_part .extends_member_text span {
+  font-size: 5rem;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  text-align:center;
+}
+  .extends_part .extends_member_text h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+    .extends_part .extends_member_text h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+  .extends_part .extends_member_text h6 a {color:#FFF;}
+  .extends_part .extends_member_text h6 a:hover {color:#FFF;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 188, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .extends_part .extends_member_text span {
+  font-size: 5rem;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  text-align:center;
+}
+    .extends_part .extends_member_text h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+   .extends_part .extends_member_text h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+  .extends_part .extends_member_text h6 a {color:#FFF;}
+  .extends_part .extends_member_text h6 a:hover {color:#FFF;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 188, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+ 
+   .extends_part .extends_member_text h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+   .extends_part .extends_member_text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+   .extends_part .extends_member_text h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+  .extends_part .extends_member_text h6 a {color:#FFF;}
+   .extends_part .extends_member_text h6 a:hover {color:#FFF;}
+  .extends_part .extends_member_text span {
+  font-size: 5rem;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  text-align:center;
+}
+}
+
+/* line 218, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text p {
+  line-height: 1.929;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575px) {
+  /* line 218, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+
+  .extends_part .extends_member_text p {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 218, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text p {
+    margin-bottom: 20px;
+  }
+  .extends_part .extends_member_text h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+   .extends_part .extends_member_text h2 {
+    font-size:2rem;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+   .extends_part .extends_member_text h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 218, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text p {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 234, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 575px) {
+  /* line 234, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 234, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 234, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 251, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text ul li {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 33px;
+  padding-top: 12px;
+}
+
+@media (max-width: 575px) {
+  /* line 251, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li {
+    padding-left: 41px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 251, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li {
+    padding-left: 41px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 251, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li {
+    padding-left: 41px;
+    padding-top: 5px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 251, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li {
+    padding-left: 41px;
+  }
+}
+
+/* line 274, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text ul li span {
+  margin-right: 17px;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  left: 55px;
+  padding-top: 2px;
+}
+
+@media (max-width: 575px) {
+  /* line 274, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li span {
+    padding-bottom: 15px;
+    position: absolute;
+    left: 15px;
+    padding-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 274, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li span {
+    padding-bottom: 15px;
+    position: absolute;
+    left: 15px;
+    padding-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 274, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li span {
+    padding-bottom: 15px;
+    position: absolute;
+    left: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 274, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+  .extends_part .extends_member_text ul li span {
+    padding-bottom: 15px;
+    position: absolute;
+    left: 15px;
+    padding-top: 6px;
+  }
+}
+
+/* line 308, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_excuses.scss */
+.extends_part .extends_member_text .btn_2:hover {
+  box-shadow: 0px 10px 20px rgba(250, 22, 61, 0.3);
+}
+
+.section_padding {
+  padding: 80px 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 26, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_common.scss */
+  .section_padding {
+    padding: 60px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 26, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_common.scss */
+  .section_padding {
+    padding: 40px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 26, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_common.scss */
+  .section_padding {
+    padding: 40px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 26, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_common.scss */
+  .section_padding {
+    padding: 40px 0px;
+  }
+}
+.btn_2 {
+  display: inline-block;
+  padding: 4px 40px;
+  border-radius: 0;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  background-image: linear-gradient(to left, #d18433 40%, #a95a15 50%, #c16919 100%);
+}
+
+/* line 94, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_button.scss */
+.btn_2:hover {
+ font-size: 1.3rem;
+  font-weight: lighter;
+  background-position: right center;
+  color: #fff !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 575px) {
+  /* line 83, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_button.scss */
+  .btn_2 {
+    padding: 9.5px 28px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 83, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_button.scss */
+  .btn_2 {
+    padding: 9.5px 28px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 83, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_button.scss */
+  .btn_2 {
+    padding: 9.5px 28px;
+  }
+}
