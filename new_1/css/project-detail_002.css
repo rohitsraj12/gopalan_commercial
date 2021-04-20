@@ -1,0 +1,248 @@
+@media (max-width: 1025px) {
+    .detail-carousel .owl-nav button {
+        opacity: 1;
+    }
+
+    .detail-carousel .owl-nav button i {
+        color: #fff;
+    }
+
+    .some-padding {
+        padding: 0 15px;
+    }
+
+    .nav-control-preview {
+        margin-top: -50px;
+    }
+
+    .detail-carousel .item img {
+        height: 100px;
+    }
+
+    .detail-carousel .owl-nav button {
+        font-size: 24px !important;
+    }
+
+    .none-carousel-ss img {
+        height: 100px;
+    }
+
+    .content-random-pj .certss {
+        margin: 15px 0;
+    }
+
+    .d-img-responsive img.img-responsive {
+        height: 200px;
+    }
+
+    .certvg h3, .certvg .tag-line label, .certvg .tag-line, .certvg .d-content-project, .certvg {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .display-none-mobile-eh {
+        display: none;
+    }
+
+    .nav-control-preview {
+        margin-top: 0;
+        padding: 12px 10px !important;
+        background: #262329;
+    }
+
+    .detail-carousel .item img, .none-carousel-ss img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .none-carousel-ss .item {
+        float: left;
+        margin: 0;
+        padding: 0 2.5px;
+    }
+
+    .none-carousel-ss .width-100 {
+        width: 34%;
+        display: table;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .none-carousel-ss .width-33 {
+        width: 33.33333%;
+    }
+
+    .maps-responsive-mcl {
+        display: none;
+    }
+
+    .detail-carousel .owl-nav {
+        margin: 0;
+    }
+
+    .detail-carousel .owl-nav button {
+        font-size: 20px !important;
+    }
+
+    .certss .col-lg-6 {
+        padding: 0;
+    }
+
+    .single-page article.article {
+        padding: 0;
+    }
+
+    .calculator-mcl .d-content-project {
+        padding: 0 25px;
+    }
+
+    .current-pj .certvg {
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    .s-current {
+        bottom: -5px;
+    }
+
+    .certvg .tag-line label {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .calculator-mcl {
+        background: #d0d0d0;
+    }
+
+    .calculator-mcl .calculator {
+        float: none !important;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .calculator-mcl .entries h3 {
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    .calculator-mcl .entries .d-content-project {
+        text-align: center;
+    }
+
+    .current-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .current-title.youmay {
+        padding-bottom: 20px;
+    }
+
+    .single-page .entries {
+        padding: 0 20px;
+    }
+
+    .maps-on-mobile {
+        display: block;
+        background: #191919;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 15px;
+    }
+
+    .goToSite {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .content-random-pj > div {
+        padding-bottom: 0;
+    }
+
+    .maps-on-mobile .col-6 {
+        padding: 0;
+    }
+
+    .location iframe {
+        height: 250px;
+    }
+
+    .maps-on-mobile .col-6.second {
+        padding-left: 20px;
+    }
+
+    .d-img-responsive img.img-responsive {
+        height: 320px;
+    }
+
+    .single-page .color-white-text button.btn-transparent {
+        color: #fff !important;
+        border-color: #fff;
+        border-width: 1px;
+        margin-top: 20px;
+        font-size: 12px;
+        padding: 10px 30px
+    }
+}
+
+@media (max-width: 480px) {
+    .detail-carousel .item img, .none-carousel-ss img {
+        height: 90px;
+    }
+
+    .single-page .certvg h5.status {
+        font-size: 10px;
+        color: #5f5f5f;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .entries h1.title-project {
+        font-weight: 500;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .certvg .tag-line label {
+        text-align: center;
+    }
+
+    .entries_ce__ h3, .entries_ce__ h2 {
+        font-size: 28px;
+    }
+
+    .single-page .certvg .d-content-project {
+        color: #191919;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    .certvg .d-content-project .content-project.limit-text-2 {
+        text-align: center;
+    }
+
+    .maps-on-mobile .col-6.first {
+        padding-right: 10px;
+    }
+
+    .maps-on-mobile .col-6.second {
+        padding-left: 15px;
+    }
+
+    .group-location {
+        font-size: 14px;
+    }
+
+    .group-location .entries-location label {
+        margin-bottom: 2px;
+    }
+
+    .location iframe {
+        height: 150px;
+    }
+}
