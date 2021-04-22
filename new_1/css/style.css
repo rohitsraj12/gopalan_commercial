@@ -1412,7 +1412,7 @@ button i.rotate180 {
 }
 
 .entries-ce-01 {
-    background: rgb(0, 87, 114);
+    background: rgb(34 72 128);
     padding: 10px;
     min-height:80px;
     position: relative; text-align:center;
@@ -1917,7 +1917,7 @@ button i.rotate180 {
 .ftco-footer {
   font-size: 14px;
   padding: 2em 1em 0;
-  background: #005772; border-top:2px solid #00567e; }
+  background: #021f4a; border-top:2px solid #00567e; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
