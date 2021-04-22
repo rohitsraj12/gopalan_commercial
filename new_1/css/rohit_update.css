@@ -1,7 +1,6 @@
-
 :root {
   --color-white: #ffffff;
-  --color-theme: #0085b9;
+  --color-theme: #021f4a;
   --color-dark: #212529;
 
   --color-light-gray: #f5f5f5;
@@ -32,31 +31,88 @@ a:hover {
   position: relative;
 }
 
+.btn__primary {
+  background-color: rgb(1 57 142);
+  color: #fff;
+}
 
-  /*====================== 
+
+.btn__primary:hover {
+  color: #fff;
+  background-color: rgb(2, 28, 85);
+}
+
+.client__say {
+  color: #222;
+}
+
+.client__name {
+  color: #333;
+}
+/*====================== 
   *
   *   #body header
   *
   ========================*/
 
-  .body__header {
-    background-color: rgba(255, 255, 255, 0.884);
-    width: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
-    z-index: 99;
-  }
+.body__header {
+  background-color: rgba(255, 255, 255, 0.884);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
 
+.body__banner {
+  position: relative;
+}
 
-  /* ============================
+.banner__container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 214, 214, 0.123);
+  backdrop-filter: blur(4px);
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  z-index: 9;
+}
+
+.banner__container article {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner__container article h2 {
+  font-size: 26px;
+  /* color:rgb(255, 255, 255) */
+  margin-bottom: 20px;
+
+}
+
+.banner__container article h4 {
+  font-size: 34px;
+  /* color:rgb(255, 255, 255) */
+
+}
+.banner__video {
+  width: 100%;
+}
+.typewrite {
+  /* color: #e22c2c; */
+}
+
+/* ============================
   
   
   
   ==============================*/
-
-
-
 
 /* section amenities
 ===================================================*/
@@ -127,14 +183,14 @@ a:hover {
 .section__amenities article:hover h2 {
   /* color: var(--color-theme); */
 }
- 
+
 .section__amenities article:hover .box {
   top: 0;
   left: 0;
- transform: translate(-25%, -18%); 
-   transform-origin: center;
+  transform: translate(-25%, -18%);
+  transform-origin: center;
   transform: rotate(45deg);
-  border-color: var(--color-theme); 
+  border-color: var(--color-theme);
 }
 
 .section__amenities article:hover {
@@ -142,7 +198,7 @@ a:hover {
 }
 
 .amenity__detail .wrap__icon svg {
-  fill:var(--color-theme);
+  fill: var(--color-theme);
   width: 40px;
   transition: 200ms;
   padding: 0px 0 0 0px;
@@ -155,8 +211,8 @@ a:hover {
 .amenity__detail {
   padding: 40px 0;
 }
-    
-.section__amenities article:hover .box { 
+
+.section__amenities article:hover .box {
   top: 6%;
   left: 19%;
   transform: translate(-25%, -18%);
