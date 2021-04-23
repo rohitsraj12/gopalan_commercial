@@ -56,7 +56,8 @@ a:hover {
   ========================*/
 
 .body__header {
-  background-color: rgba(255, 255, 255, 0.884);
+  background-color: rgba(255, 255, 255, 0.685);
+  backdrop-filter: blur(4px);
   width: 100%;
   position: absolute;
   top: 0;
@@ -71,38 +72,57 @@ a:hover {
 .banner__container {
   width: 100%;
   height: 100%;
-  background-color: rgba(214, 214, 214, 0.123);
-  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.178);
+  /* backdrop-filter: blur(4px); */
   position: absolute;
-  bottom: 0%;
+  top: 0;
   left: 0;
   z-index: 9;
 }
 
 .banner__container article {
-  text-align: center;
   height: 100%;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  padding: 50px 50px;
 }
 
 .banner__container article h2 {
   font-size: 26px;
-  /* color:rgb(255, 255, 255) */
+  color:rgb(255, 255, 255);
   margin-bottom: 20px;
 
 }
 
 .banner__container article h4 {
-  font-size: 34px;
-  /* color:rgb(255, 255, 255) */
+  width: 40%;
+  /*height: 100px;
+  */padding: 30px;
+  font-size: 2rem;
+  font-weight: 400;
+  color:rgb(255, 255, 255);
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
 
+.banner__container article h4 strong {
+  display: block;
+  
+  padding-top: 20px;
+  color: #f56600
 }
 .banner__video {
   width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 .typewrite {
   /* color: #e22c2c; */
