@@ -60,8 +60,9 @@
           display: none;
         position: absolute;
         top: 60px;
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.7);
         width: 200px;
+        backdrop-filter: blur(4px);
         padding: 20px 20px 20px 20px;
       }
     
@@ -73,18 +74,19 @@
         transition: 300ms;
         color: rgb(26, 26, 26);
       }
+      
       .sub-nav__list:last-child .sub-nav__link{
         border-bottom: none;
     
       } 
     
       .nav__link:hover, .sub-nav__link:hover  {
-        color:  #032f71;
+        color:  #dd6300;
       }
       
       .sub-nav__link:hover  {
         padding-left: 10px;
-        border-color: #032f71;
+        border-color: #dd6300;
       }
 
       .other__banner {
