@@ -1917,13 +1917,14 @@ button i.rotate180 {
 .ftco-footer {
   font-size: 14px;
   padding: 2em 1em 0;
-  background: #021f4a; border-top:2px solid #00567e; }
+  background: #060829; border-top:2px solid #00567e; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color:#f56600;
     margin-bottom: 20px;
     font-size:.9rem;
     font-weight: 600;
