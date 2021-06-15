@@ -1,0 +1,276 @@
+@media (min-width: 769px) {
+  .hamberger {
+    display: none;
+  }
+
+  .wrap__container {
+    width: 90%;
+  }
+
+  .body__header__scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .body__header {
+    padding: 10px 0;
+  }
+
+  .body__header header,
+  .body__header__scroll header {
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__nav > ul > li + li {
+    margin-left: 40px;
+  }
+
+  .nav__list {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  .nav__link {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+
+  .nav__link:hover,
+  .active {
+    color: #032f71;
+  }
+
+  /* 
+  
+    section banner
+  
+  */
+  .banner__container article {
+
+  }
+
+  /* sub navigation
+      ================================= */
+  .sub__nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: rgba(0, 0, 0, 0.535);
+    width: 200px;
+    backdrop-filter: blur(4px);
+    padding: 20px 20px 20px 20px;
+  }
+
+  .sub-nav__link {
+    font-size: 15px;
+    display: block;
+    padding: 10px 0 5px 5px;
+    border-bottom: 1px solid #524f4f56;
+    transition: 300ms;
+    color: rgb(255, 255, 255);
+  }
+
+  .sub-nav__list:last-child .sub-nav__link {
+    border-bottom: none;
+  }
+
+  .nav__link:hover,
+  .sub-nav__link:hover {
+    color: #dd6300;
+  }
+
+  .sub-nav__link:hover {
+    padding-left: 10px;
+    border-color: #dd6300;
+  }
+
+  .other__banner {
+    width: 100%;
+    height: 80vh;
+  }
+
+  /* gallery */
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Compensate for excess margin on outer gallery flex items */
+    margin: -1rem -1rem;
+  }
+
+  .gallery-item {
+    /* Minimum width of 24rem and grow to fit available space */
+    flex: 1 0 15rem;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .gallery-image {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+  }
+
+  .gallery-image:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  .group-location {
+    background-color: #111;
+  }
+
+  /*
+
+    The following rule will only run if your browser supports CSS grid.
+
+    Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+    */
+
+  @supports (display: grid) {
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    .gallery,
+    .gallery-item {
+      margin: 0;
+    }
+
+    /* news */
+    .section__news .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      /* grid-template-rows: 200px; */
+      height: 350px;
+    }
+    .section__news .gallery img {
+      object-fit: cover;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  /* .d-banner-image {
+    display: none;
+  } */
+  .hamberger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 2%;
+    padding: 0;
+    z-index: 999;
+  }
+  .hamberger i {
+    font-size: 20px;
+  }
+
+  .hamberger svg {
+    display: none;
+  }
+
+  .wrap__container {
+    width: 96%;
+  }
+
+  /* header logo
+      ========================================*/
+  .header__brand img {
+    height: 50px;
+  }
+  .header__brand {
+    padding: 15px 10px 10px;
+  }
+
+  .sub__nav {
+    display: none;
+  }
+
+  /* header naviagtion
+      ========================================*/
+  .header__nav {
+    margin: 10px 10px;
+    display: none;
+    z-index: 999;
+  }
+  .nav__link {
+    display: block;
+    padding: 7px 0 5px 5px;
+    border-bottom: 1px solid #797979;
+    position: relative;
+    color: #fff;
+  }
+  .nav__link i {
+    position: absolute;
+    right: 2%;
+    font-size: 24px;
+    color: #fff;
+  }
+  .nav__link > .nav-btn {
+    display: none;
+  }
+  .sub-nav__link {
+    margin: 0 0 0 15px;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #949494;
+    color: #fff;
+  }
+  .nav__link:hover,
+  .sub-nav__link:hover {
+    color: #fe6600;
+  }
+
+  /* ======================================
+
+    #body banner
+  
+  ========================================*/
+  .body__header {
+    position: static;
+  }
+  .body__banner img {
+    width: 100%;
+    min-height: 60vh;
+  }
+
+  .body__banner video {
+    width: 100%;
+    /* height: 80vh; */
+  }
+
+  .banner__container article h4 {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  #social_side_links {
+    display: none;
+  }
+}
