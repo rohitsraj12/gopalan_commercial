@@ -59,9 +59,59 @@
     section banner
   
   */
-  .banner__container article {
+  /* social media */
+  
+.top__social-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
 
-  }
+.top__social-media ul {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top__social-media li {
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.top__social-media li a {
+  padding-top: 16px;
+  display: inline-block;
+  border: 2px solid #777777;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  text-align: center;
+  color: #aaaaaa;
+  border-radius: 50%;
+  transition: 400ms;
+  background-color: #00000046;
+}
+
+.hover__state {
+  color: var(--color-theme);
+  color: #fff;
+  opacity: 0;
+  padding-left: -40px;
+  transition: 600ms;
+}
+
+.top__social-media li a:hover {
+  border: 2px solid #ffffff;
+  /* color: var(--color-theme); */
+  color: #fff;
+}
+
+.top__social-media li:hover span {
+  opacity: 1;
+  padding-left: 10px;
+}
 
   /* sub navigation
       ================================= */
@@ -271,6 +321,67 @@
   }
 
   #social_side_links {
+    display: none;
+  }
+}
+
+@media(min-width: 1401px){
+
+  .banner__awards{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+  }
+
+  .banner__awards ul li {
+    /* background-color: rgba(255, 255, 255, 0.774); */
+}
+
+  .banner__awards ul li + li {
+    margin-left: 1px;
+  }
+  .banner__awards img {
+    width: 150px;
+  }
+
+}
+
+
+@media(min-width: 960px) and (max-width: 1400px){
+  .banner__awards img {
+    width: 100px;
+  }
+
+  /* .banner__container {
+    display: flex;
+  } */
+  .banner__awards{
+    width: 40%;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+  }
+  .banner__container article.banner__awards {
+    align-items: flex-end;
+  }
+
+  .banner__awards ul {
+    flex-wrap: wrap;
+  }
+
+  .banner__awards ul li:nth-child(odd){
+    
+    text-align: right;
+  }
+
+  .banner__awards ul li {
+    /* width: 50%; */
+  }
+}
+
+@media(max-width: 960px){
+  .banner__awards {
     display: none;
   }
 }
